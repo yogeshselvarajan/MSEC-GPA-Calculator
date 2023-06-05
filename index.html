@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>>MSEC GPA Calculator</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h2 align="center">Mepco Schlenk Engineering College GPA Calculator</h2>
+  <div>
+    <label for="semester">Select Semester:</label>
+    <select id="semester">
+      <option value="">-- Select Semester --</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select>
+  </div>
+
+  <table id="subjectTable">
+    <thead>
+    <tr>
+      <th>Subject Code</th>
+      <th>Subject Name</th>
+      <th>Credits</th>
+      <th>Letter Grade Obtained</th>
+      <th>Grade Point</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <button id="calculateButton" class="fade-in">Calculate GPA</button>
+
+  <h3>SGPA: <span id="sgpaValue"></span></h3>
+</div>
+
+<footer class="fade-in">
+  <p>Made with &hearts; by <a href="https://www.linkedin.com/in/yogesh-selvarajan/">Yogesh S</a>, CSE, Mepco Schlenk Engineering College, Sivakasi</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
